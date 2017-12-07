@@ -71,5 +71,10 @@ namespace URISUserMicroService.Models
         /// List of user addresses
         /// </summary>
         public List<UserAddress> UserAddresses { get; set; }
+
+        /// <summary>
+        /// last name of user
+        /// </summary>
+        public string LastName { get; set; }
     }
 }
